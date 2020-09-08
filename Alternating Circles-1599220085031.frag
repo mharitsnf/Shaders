@@ -38,7 +38,7 @@ void main() {
     uv = fract(uv);
     
     float radius = .5;
-    float thickness = 0.052;
+    float thickness = 0.2;
 
     vec3 color = vec3(0.);
     float circ = circle(uv, radius);
